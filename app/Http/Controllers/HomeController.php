@@ -25,4 +25,24 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+    public function dashboard()
+    {
+        return view('dashboard');
+    }
+
+     public function create()
+    {
+        return view('product.create');
+    }
+
+     public function edit_product()
+    {
+        return view('product.edit_product');
+    }
+
+     public function list_product()
+    {
+        return view('product.list_product');
+    }
 }
